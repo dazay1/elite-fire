@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">
+          <img src="img/Elite Fire.svg" alt="" />
+        </a>
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list" id="nav__list">
+            <li class="nav__item">
+              <a href="#продукция" class="nav__link">Продукция</a>
+            </li>
+            <li class="nav__item">
+              <a href="#конструктор" class="nav__link active-link"
+                >Конструктор</a
+              >
+            </li>
+            <li class="nav__item">
+              <a href="#опыт" class="nav__link">Опыт</a>
+            </li>
+            <li class="nav__item">
+              <a href="#контакты" class="nav__link">Контакты</a>
+            </li>
+          </ul>
+        </div>
+        <div class="nav__button">
+          <div class="nav__link-button">
+            <button
+              class="nav__link"
+              style="
+                background-color: transparent;
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <i
+                style="background-color: transparent; color: #000"
+                class="ri-phone-fill"
+              ></i>
+            </button>
+          </div>
+        </div>
+        <div class="nav__toggle-btn">
+          <img src="img/menu-line.svg" alt="" />
+          <i class="ri-menu-line"></i>
+        </div>
+      </nav>
+      <div class="dropdown-menu">
+        <ul class="nav__list" id="nav__list">
+          <li class="nav__item">
+            <a href="#продукция" class="nav__link">Продукция</a>
+          </li>
+          <li class="nav__item">
+            <a href="#конструктор" class="nav__link active-link">Конструктор</a>
+          </li>
+          <li class="nav__item">
+            <a href="#опыт" class="nav__link">Опыт</a>
+          </li>
+          <li class="nav__item">
+            <a href="#контакты" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+        <li>
+          <div class="nav__link-button">
+            <button
+              class="nav__link"
+              style="
+                background-color: transparent;
+                color: #fff;
+                text-align: center;
+              "
+            >
+              <i
+                style="background-color: transparent; color: #000"
+                class="ri-phone-fill"
+              ></i>
+            </button>
+          </div>
+        </li>
+      </div>
+    </header>
+    <main>
+      <div class="camin container">
+        <div class="camin__text">
+          <h1 class="camin__text-title">
+            Автоматические
+            <span
+              style="
+                background: linear-gradient(
+                  226.43deg,
+                  #ffffff 49.37%,
+                  rgba(255, 255, 255, 0) 99.78%
+                );
+                -webkit-background-clip: text; /* Safari, Chrome, Opera */
+                -moz-background-clip: text; /* Firefox */
+                background-clip: text; /* Standard syntax */
+                color: transparent;
+              "
+              >биокамины</span
+            >
+          </h1>
+          <p class="camin__text-price">
+            от
+            <span style="font-size: 36px; line-height: 110%; margin-left: 10px"
+              >99 000₽</span
+            >
+          </p>
+          <div class="camin__text-icon">
+            <div class="camin__text-setting">
+              <img src="img/settings.svg" alt="" />
+              <p class="camin__text-text">Свое производство</p>
+            </div>
+            <div class="camin__text-setting">
+              <img src="img/plane.svg" alt="" />
+              <p class="camin__text-text">Доставка в любую точку мира</p>
+            </div>
+          </div>
+        </div>
+        <div class="camin__img">
+          <img class="camin__img-img" src="img/kamin2.png" alt="" />
+          <div class="camin__img-shadow"></div>
+        </div>
+      </div>
+      <div class="about container">
+        <h3 class="about__title">Настоящий высокий огонь у вас дома</h3>
+        <div class="about__text">
+          Благодаря специальной технологии горения биоэтанола мы добились
+          горения потрясающей красоты
+        </div>
+        <div class="about__img">
+          <img src="img/kamin.png" alt="" />
+          <div class="about__shadow">
+            <div class="about__img-shadow blur"></div>
+          </div>
+        </div>
+        <div class="about__icons">
+          <div class="about__icons-fair">
+            <img src="img/fire.svg" alt="" />
+            <p class="about__icons-fair__text">
+              Пламя яркое, высотой до 20 сантиметров
+            </p>
+          </div>
+          <div class="about__icons-fair">
+            <img src="img/water.svg" alt="" />
+            <p class="about__icons-fair__text">
+              Работает такой камин на биотопливе
+            </p>
+          </div>
+          <div class="about__icons-fair">
+            <img src="img/close.svg" alt="" />
+            <p class="about__icons-fair__text">Он не дымит и не пахнет</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="information container">
+        <div class="information__type">
+          <h3 class="information__title">заправка</h3>
+          <p class="information__text">
+            Внутри не просто труба. Спроектированный нами бак, самого большого
+            обьема среди всех производителей
+          </p>
+          <p class="information__text">
+            В наши топливные блоки встроен мощный насос.
+          </p>
+        </div>
+        <div class="information__img">
+          <img style="position: relative; top: -200px;
+          left: 100px;" src="img/Group.png" alt="">
+          <div class="information__img-text">
+            <h6 class="information__img-text__title"><span>3,5</span> минуты</h6>
+          </div>
+        </div>
+      </div> -->
+      <div class="information container">
+        <h3 class="information__title">
+          Умный камин <span></span> очень умный
+        </h3>
+        <p class="information__text">
+          Даже если у Вас нет своего решения по умному дому. <br />
+          Мы отлично ладим с Яндекс.Алиса и Mi Home.
+        </p>
+        <div class="information__img">
+          <img src="img/kamin6 1.png" alt="" style="background-color: black" />
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <div class="footer__content grid">
+          <div>
+            <a href="#" class="footer__logo">связаться с нами</a>
+          </div>
+          <div class="footer__data grid">
+            <div>
+              <h3 class="footer__title">WhatsApp</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">+7911 306 4144</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Телеграм</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link"> @elite__fire</a>
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Почта</h3>
+              <ul class="footer__links">
+                <li>
+                  <a
+                    href="#"
+                    class="footer__link"
+                    style="color: rgba(255, 207, 122, 1)"
+                    >info@elite-fire.ru</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Наш адрес</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">Россия, г. </a>
+                </li>
+                <li>
+                  <a href="#" class="footer__link"
+                    >Москва, Варшавское шоссе, 170 г</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="footer__title">Телефон</h3>
+              <ul class="footer__links">
+                <li>
+                  <a href="#" class="footer__link">8 911 306 4144</a>
+                </li>
+                <li>
+                  <button
+                    class="footer__button"
+                    style="
+                      border: 1px solid rgba(206, 183, 135, 1);
+                      width: 279px;
+                      height: 60px;
+                      color: #fff;
+                      text-align: center;
+                    "
+                  >Связаться с менеджером</button>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer__group">
+          <div class="footer__social">
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-facebook-line"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-instagram-line"></i>
+            </a>
+            <a
+              href="https://twitter.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-twitter-line"></i>
+            </a>
+            <a
+              href="https://www.youtube.com/"
+              target="_blank"
+              class="footer__social-link"
+            >
+              <i class="ri-youtube-line"></i>
+            </a>
+          </div>
+          <span class="footer__copy"
+            >&#169; Copyright Bedimcode. All rights reserved</span
+          >
+        </div>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
